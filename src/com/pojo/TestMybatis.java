@@ -23,7 +23,6 @@ public class TestMybatis {
 //            System.out.println(c.getName());
 //        }
 		System.out.println("先运行TestMybatisGenerator创建mapper,pojo,xml 等文件，然后取消import里被注释的，以及接下来的注释，并执行代码");
-		 
 		        String resource = "mybatis-config.xml";
 		        InputStream inputStream = Resources.getResourceAsStream(resource);
 		        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
